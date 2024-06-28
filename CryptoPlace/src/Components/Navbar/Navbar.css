@@ -59,3 +59,31 @@
     width: 13px;
 }
 
+/* -------MediaQuery------- */
+
+@media (max-width: 900){
+    .navbar{
+        padding: 20px 8%;
+    }
+    .navbar button{
+        gap: 8px;
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 820px){
+    .navbar{
+        padding: 20px 5%;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar button img{
+        width: 12px;
+    }
+
+
+}
